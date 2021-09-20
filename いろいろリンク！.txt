@@ -1,5 +1,5 @@
 【GitHubレポジトリ】
-https://github.com/watackeech
+https://github.com/watackeech/Benesse_Digital_Plan
 
 
 【Googleアカウント（Firebase用）】
