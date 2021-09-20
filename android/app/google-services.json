@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "331352417109",
+    "project_id": "digital-plan-0",
+    "storage_bucket": "digital-plan-0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331352417109:android:3a90dc8de0952c289905dc",
+        "android_client_info": {
+          "package_name": "com.example.digital_plan_base"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331352417109-qnhqs04eat4v4l2ek4pfugpn3ko6hd64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOfM59-oci1bm5dbcKwbhTVugeeW0pvY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331352417109-qnhqs04eat4v4l2ek4pfugpn3ko6hd64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

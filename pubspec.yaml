@@ -1,0 +1,35 @@
+name: digital_plan_test
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^1.6.0
+  cloud_firestore: ^2.5.3
+  firebase_auth: ^3.1.1
+  modal_progress_hud_nsn: ^0.1.0-nullsafety-1
+  font_awesome_flutter: ^9.1.0
+  fab_circular_menu: ^1.0.2
+  direct_select_flutter: ^1.1.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/
