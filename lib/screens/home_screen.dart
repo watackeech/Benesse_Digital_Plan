@@ -1,4 +1,5 @@
 import 'package:digital_plan_test/palette.dart';
+import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -36,7 +37,6 @@ class _HomeScreenState extends State<HomeScreen> {
     super.initState();
     getCurrentUser();
   }
-
   @override
   Widget build(BuildContext context) {
     var screen = MediaQuery.of(context).size;
@@ -44,6 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: Text("ホーム画面"),
         centerTitle: true,
+        automaticallyImplyLeading: false,
         backgroundColor: kPrime,
         actions: <Widget>[
           IconButton(
@@ -55,7 +56,6 @@ class _HomeScreenState extends State<HomeScreen> {
         ],
       ),
       floatingActionButton: FabCircularMenu(
-          // Cannot be `Alignment.center`
           alignment: Alignment.bottomRight,
           ringDiameter: 500.0,
           ringWidth: 150.0,
