@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:digital_plan_test/user_control/registration_screen.dart';
 import 'package:digital_plan_test/user_control/login_screen.dart';
 import 'package:digital_plan_test/components/rounded_button.dart';
-import 'package:flutter_svg/svg.dart';
 
 class WelcomeScreen extends StatefulWidget {
   static String id =
@@ -46,8 +45,42 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                 onPressed: () =>
                     {Navigator.pushNamed(context, RegistrationScreen.id)},
               ),
+              SizedBox(height: 5,),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                    child: Material(
+                        elevation: 5,
+                        child: Image(image: AssetImage("images/Benesse_Logo.jpg"), width: logoSize, height: logoSize,)
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                    child: Material(
+                        elevation: 5,
+                        child: Image(image: AssetImage("images/CoDMON_Logo.png"), width: logoSize, height: logoSize,)
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                    child: Material(
+                        elevation: 5,
+                        child: Image(image: AssetImage("images/EDUCOM_Logo.jpg"), width: logoSize, height: logoSize,)
+                    ),
+                  ),Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                    child: Material(
+                        elevation: 5,
+                        child: Image(image: AssetImage("images/Classi_Home_Logo.png"), width: logoSize, height: logoSize,)
+                    ),
+                  ),
+                ],
+              ),
             ]),
       ),
     );
   }
+  double logoSize = 45;
 }
